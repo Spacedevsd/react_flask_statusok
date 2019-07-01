@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>React Flask APP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+</head>
+
+<body>
+    {% block content %} {% endblock content %}
+
+    <script src="{{ url_for('static', filename='js/index.bundle.js') }}"></script>
+</body>
+
+</html>
